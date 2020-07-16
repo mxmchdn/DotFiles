@@ -1,0 +1,24 @@
+#
+# ~/.dmenurc
+#
+
+## define the font for dmenu to be used
+DMENU_FN="monospace:size=9"
+
+## background colour for unselected menu-items
+DMENU_NB="#0B2828"
+
+## textcolour for unselected menu-items
+DMENU_NF="#87875f"
+
+## background colour for selected menu-items
+DMENU_SB="#87875f"
+
+## textcolour for selected menu-items
+DMENU_SF="#0B2828"
+
+## command for the terminal application to be used:
+TERMINAL_CMD="terminal -e"
+
+## export our variables
+DMENU_OPTIONS="-fn $DMENU_FN -nb $DMENU_NB -nf $DMENU_NF -sf $DMENU_SF -sb $DMENU_SB"
