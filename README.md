@@ -6,24 +6,24 @@ I use manjaro-i3 based on archlinux and using i3wm.
 
 ## software
 
-- Windows manager
+- Windows manager:
 
     - [i3wm](http://i3wm.org/): tiling window manager
 
         - [i3status](https://i3wm.org/i3status/): status bar
     
-    - Fonts
+    - Fonts:
 
         - [Powerline-fonts](https://github.com/powerline/fonts)
         - [Nerd Fonts / TerminessTTF Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-- Console
+- Console:
 
     - [rxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode): urxvt terminal
     - [Terminator](https://wiki.archlinux.org/index.php/Terminator): Terminator terminal
     - [Vim](https://www.vim.org/): vim editor
         
-        - Vim Plugins
+        - Vim plugins:
 
             - [Ack](https://github.com/mileszs/ack.vim): Upgrade grep = Ack
             - [Gutentags](https://github.com/ludovicchabant/vim-gutentags): manage ctags
@@ -34,17 +34,21 @@ I use manjaro-i3 based on archlinux and using i3wm.
             - [Vinegar](https://github.com/tpope/vim-vinegar): enhance netrw
             - [NerdCommenter](https://github.com/preservim/nerdcommenter): easy use for comment
 
-        - Vim Themes
+        - Vim themes:
 
             - [Jellybeans](https://github.com/nanotech/jellybeans.vim)
 
     - [ZSH](https://wiki.archlinux.org/index.php/Zsh) / [Oh-My-ZSH](https://ohmyz.sh/): shell instead bash
+        
+        - ZSH themes:
 
-- Internet
+            - [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
+
+- Internet:
 
     - [firefox](https://www.mozilla.org/en-US/firefox/new/): Firefox web browser
 
-- Others
+- Others:
 
     - [alsa](http://www.alsa-project.org/main/index.php/Main_Page) /
       [pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/): sound
