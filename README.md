@@ -34,6 +34,12 @@ I use manjaro-i3 based on archlinux and using i3wm.
             - [Vinegar](https://github.com/tpope/vim-vinegar): enhance netrw
             - [NerdCommenter](https://github.com/preservim/nerdcommenter): easy use for comment
 
+        - Vim Themes
+
+            - [Jellybeans](https://github.com/nanotech/jellybeans.vim)
+
+    - [ZSH](https://wiki.archlinux.org/index.php/Zsh) / [Oh-My-ZSH](https://ohmyz.sh/): shell instead bash
+
 - Internet
 
     - [firefox](https://www.mozilla.org/en-US/firefox/new/): Firefox web browser
