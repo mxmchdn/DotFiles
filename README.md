@@ -1,6 +1,7 @@
 # DOTFILES
 
 Here are the files of my work environment.
+
 I use manjaro-i3 based on archlinux and using i3wm.
 
 ## software
@@ -21,6 +22,17 @@ I use manjaro-i3 based on archlinux and using i3wm.
     - [rxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode): urxvt terminal
     - [Terminator](https://wiki.archlinux.org/index.php/Terminator): Terminator terminal
     - [Vim](https://www.vim.org/): vim editor
+        
+        - Vim Plugins
+
+            - [Ack](https://github.com/mileszs/ack.vim): Upgrade grep = Ack
+            - [Gutentags](https://github.com/ludovicchabant/vim-gutentags): manage ctags
+            - [Tags](https://github.com/szw/vim-tags): generate ctags
+            - [Gitgutter](https://github.com/airblade/vim-gitgutter): git modification
+            - [Airline](https://github.com/vim-airline/vim-airline) / [Airline Themes](https://github.com/vim-airline/vim-airline-themes/): Powerline for vim
+            - [Fugitive](https://github.com/tpope/vim-fugitive): git complement
+            - [Vinegar](https://github.com/tpope/vim-vinegar): enhance netrw
+            - [NerdCommenter](https://github.com/preservim/nerdcommenter): easy use for comment
 
 - Internet
 
