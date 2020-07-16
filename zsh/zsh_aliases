@@ -1,0 +1,71 @@
+##### ZSH #####
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+###############
+
+##### File management #####
+alias v="vim"
+alias ls='ls --color=auto'
+alias lsa='ls -alh'
+alias sl='sl -e'
+
+# alias for k plugin (for git)
+alias k="k -ah"
+
+# i3lock
+alias i3lock='i3lock -i ~/Pictures/Wallpapers/nasa.png'
+alias lock='i3lock -i ~/Pictures/Wallpapers/nasa.png'
+
+# GREP
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+###########################
+
+##### Aliases for xrandr #####
+#Screen alias HDMI
+alias ScreenClone='xrandr --output HDMI2 --auto' # for clone screen
+alias ScreenRight='xrandr --output HDMI2 --auto --right-of eDP1' # for screen duplicate at right
+alias ScreenLeft='xrandr --output HDMI2 --auto --left-of eDP1' # for screen duplicate at left
+alias ScreenTop='xrandr --output HDMI2 --auto --above eDP1' # for screen duplicate at top
+alias ScreenDown='xrandr --output HDMI2 --auto --below eDP1' # for screen duplicate at down
+alias landscape='xrandr --output eDP1 --mode'
+
+# Screen alias for DP-1 
+alias Screen2Clone='xrandr --output DP1 --auto' # for clone screen
+alias Screen2Right='xrandr --output DP1 --auto --right-of eDP1' # for screen duplicate at right
+alias Screen2Left='xrandr --output DP1 --auto --left-of eDP1' # for screen duplicate at left
+alias Screen2Top='xrandr --output DP1 --auto --above eDP1' # for screen duplicate at top
+alias Screen2Down='xrandr --output DP1 --auto --below eDP1' # for screen duplicate at down
+
+# Sceen close aliases
+alias ScreenAlloff='xrandr --output HDMI2 --off --output DP1 --off' # for off the HDMI and the DP-1
+alias ScreenOff='xrandr --output HDMI2 --off' # off the HDMI
+alias Screen2Off='xrandr --output DP1 --off' # off the DP-1
+
+#Sound alias
+alias SoundReset='pulseaudio -k && pulseaudio --start'
+alias SoundLap='pactl set-card-profile 0 output:analog-stereo'
+alias SoundHDMI='pactl set-card-profile 0 output:hdmi-stereo-extra1'
+
+alias HomeSetUp='xrandr --output HDMI2 --auto --right-of eDP1 --output DP1 --auto --left-of eDP1'
+##############################
+
+########## Language ##########
+alias fr='setxkbmap fr'
+alias uk='setxkbmap uk'
+alias us='setxkbmap us'
+alias usi='setxkbmap us_intl'
+##############################
+
+######### Lazy shits #########
+# calendar
+alias cal='cal -n 3'
+
+# Python
+alias py2='python2.7'
+alias py3='python3'
+
+# git
+alias gitult='git log --graph --all --oneline'
+##############################
