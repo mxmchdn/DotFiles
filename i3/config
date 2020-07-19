@@ -53,7 +53,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 #                                               #
 #################################################
 
-exec "pulseaudio --start && pulseaudio -k && pulseaudio --start"
+exec "pulseaudio --start"
 bindsym $mod+Ctrl+m exec pavucontrol
 
 #################################################
