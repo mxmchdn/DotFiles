@@ -53,7 +53,8 @@ bindsym $mod+z exec --no-startup-id morc_menu
 #                                               #
 #################################################
 
-exec "pulseaudio --start"
+exec --no-startup-id "pulseaudio -k && pulseaudio --start"
+exec --no-startup-id pa-applet
 bindsym $mod+Ctrl+m exec pavucontrol
 
 #################################################
@@ -99,18 +100,18 @@ bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
 # Setup workspace and names
-set $ws0 "0: Discord"
-set $ws1 "1: Terminal"
-set $ws2 "2: VIM"
+set $ws0 "0: Firefox"
+set $ws1 "1: Zsh"
+set $ws2 "2: VM"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9: Teams"
-set $wsA "A: Firefox"
-set $wsB "B"
+set $ws8 "8: PDF"
+set $ws9 "9: Discord"
+set $wsA "A: Thunderbird"
+set $wsB "B: Spotify"
 set $wsC "C"
 set $wsD "D"
 
@@ -147,9 +148,10 @@ bindsym $mod+Shift+BackSpace move container to workspace $wsD
 bindsym $mod+Shift+Escape move container to workspace $ws0
 
 # Open applications on specific workspaces
-assign [class="discord"] $ws0
-assign [class="teams"] $ws9
-assign [title=".*[fF]irefox.*"] $wsA
+assign [class="discord"] $ws9
+assign [class="thunderbird"] $wsA
+assign [class="evince"] $ws8
+assign [title=".*[fF]irefox.*"] $ws0
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -352,6 +354,7 @@ bindsym $mod+Ctrl+f exec firefox
 bindsym $mod+F4 exec pcmanfm
 bindsym $mod+Ctrl+d exec discord
 bindsym $mod+Ctrl+p exec evince
+bindsym $mod+Ctrl+t exec thunderbird
 
 # Bindings for multimedia keys
 # Pulse Audio controls
