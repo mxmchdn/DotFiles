@@ -1,19 +1,11 @@
 call plug#begin('~/.vim/plugged')
 
 " Mappings
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-unimpaired'
 Plug 'scrooloose/nerdcommenter'
 Plug 'romainl/vim-qf'
 
 " Navigation
-Plug 'tpope/vim-vinegar'
 Plug 'mileszs/ack.vim'
-
-" Snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 
 " Theme
 Plug 'vim-airline/vim-airline'
@@ -23,8 +15,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-test/vim-test'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-"Plug 'preservim/nerdtree'
-Plug 'tpope/vim-dispatch'
+Plug 'preservim/nerdtree'
 
 " Filetype specific plugins
 Plug '5long/pytest-vim-compiler'
