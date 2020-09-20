@@ -355,6 +355,7 @@ bindsym $mod+F4 exec pcmanfm
 bindsym $mod+Ctrl+d exec discord
 bindsym $mod+Ctrl+p exec evince
 bindsym $mod+Ctrl+t exec thunderbird
+bindsym $mod+Ctrl+s exec my_scrot
 
 # Bindings for multimedia keys
 # Pulse Audio controls
