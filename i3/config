@@ -39,7 +39,7 @@ bindsym $mod+Shift+Q kill
 bindsym $mod+Shift+A kill
 
 # Set a WallPaper
-exec "feh --bg-scale ~/Pictures/Wallpapers/mordor.jpg"
+exec "feh --bg-scale ~/Pictures/Wallpapers/japan2.jpg"
 
 # start program launcher
 bindsym $mod+d exec --no-startup-id dmenu_recency
