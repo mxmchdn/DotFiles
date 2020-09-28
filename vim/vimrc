@@ -59,8 +59,6 @@ set encoding=utf-8
 " Automatically detect rxvt-unicode-256color
 set term=xterm-256color
 
-set encoding=utf-8
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " User interface
 
@@ -90,10 +88,6 @@ set wildmenu
 " Set completion behavior
 set wildmode=longest:full,list:full
 
-" Disable bell completely
-set visualbell
-set t_vb=
-
 " Color the column after textwidth, usually the 80th
 if version >= 703
     set colorcolumn=+1
@@ -106,9 +100,6 @@ set fillchars=vert:│
 
 " Enables synthax highlighting
 syntax on
-
-" Enable Dowygen highlighting
-let g:load_doxygen_syntax=1
 
 " Allow mouse in vim
 set mouse=a
@@ -126,7 +117,7 @@ set textwidth=79
 set completeopt=longest,menuone
 
 " Highlight current line
-set cursorline 
+set cursorline
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search options
@@ -141,9 +132,6 @@ set smartcase
 
 " Move cursor to the matched string
 set incsearch
-
-" Don't highlighting matched stings
-set nohlsearch
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Indentation options
