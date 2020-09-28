@@ -1,0 +1,20 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    b = branch
+    logp = log --graph --pretty=oneline --all --decorate=full --show-signature
+    cam = commit -a -m
+    po = push origin master
+    pot = push origin master --follow-tags
+    pt = push --follow-tags
+
+[color]
+    ui = true
+
+[push]
+    default = simple
+
+[core]
+    editor = vim
+    pager = less -iXFR
