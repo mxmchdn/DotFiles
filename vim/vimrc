@@ -102,7 +102,6 @@ endif
 " Display whitespace characters
 set list
 set listchars=tab:>─,eol:¬,trail:\ ,nbsp:¤
-
 set fillchars=vert:│
 
 " Enables synthax highlighting
@@ -157,7 +156,7 @@ set tabstop=4
 " The number of spaces inserted/rm when using < or >
 set shiftwidth=4
 
-" The nuber of spaces inserted when you press tab
+" The number of spaces inserted when you press tab
 set softtabstop=-1
 
 " Insert spaces intead of tabs
