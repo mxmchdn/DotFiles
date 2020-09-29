@@ -149,6 +149,8 @@ set softtabstop=-1
 
 " Insert spaces intead of tabs
 set expandtab
+" Not for makefile
+autocmd Filetype make setlocal noexpandtab
 
 " When tabbing manually, use shiftwidth instead of tabstop and softtabstop
 set smarttab
