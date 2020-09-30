@@ -85,17 +85,11 @@ HIST_STAMPS="mm/dd/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-#    sudo
+    sudo
     colored-man-pages
-#    zsh-syntax-highlighting
-#    zsh-autosuggestions
-#    command-not-found
-#    archlinux
-#    pip
-#    python
-#    django
-#    systemd
-#    common-aliases
+    colorize
+    command-not-found
+    archlinux
     k
 )
 
