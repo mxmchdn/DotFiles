@@ -1,6 +1,8 @@
 ##### ZSH #####
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias aliases="vim ~/.zsh_aliases"
+alias src_zsh="source ~/.zshrc"
 ###############
 
 ##### File management #####
@@ -39,7 +41,6 @@ alias Screen2Top='xrandr --output DP1 --auto --above eDP1' # for screen duplicat
 alias Screen2Down='xrandr --output DP1 --auto --below eDP1' # for screen duplicate at down
 
 # Sceen close aliases
-alias ScreenAlloff='xrandr --output HDMI2 --off --output DP1 --off' # for off the HDMI and the DP-1
 alias ScreenOff='xrandr --output HDMI2 --off' # off the HDMI
 alias Screen2Off='xrandr --output DP1 --off' # off the DP-1
 
@@ -48,7 +49,10 @@ alias SoundReset='pulseaudio -k && pulseaudio --start'
 alias SoundLap='pactl set-card-profile 0 output:analog-stereo'
 alias SoundHDMI='pactl set-card-profile 0 output:hdmi-stereo-extra1'
 
-alias HomeSetUp='xrandr --output HDMI2 --auto --right-of eDP1 --output DP1 --auto --left-of eDP1'
+alias HomeSetupLand='xrandr --output HDMI2 --auto --above eDP1 --output DP1 --auto --left-of HDMI2'
+alias HomeSetupFlip='xrandr --output HDMI2 --auto --above eDP1 --output DP1 --auto --left-of HDMI2 --rotate right'
+alias HomeSetup2Screen='xrandr --output HDMI2 --auto --above eDP1 --output DP1 --auto --left-of HDMI2 --output eDP1 --off'
+alias HomeOff='xrandr --output eDP1 --auto --below HDMI2 --output HDMI2 --off --output DP1 --off' # for off the HDMI and the DP-1
 ##############################
 
 ########## Language ##########
@@ -68,4 +72,14 @@ alias py3='python3'
 
 # git
 alias gitult='git log --graph --all --oneline'
+
+# gcc
+alias gccEpita='gcc -Wall -Wextra -std=c99 -pedantic'
+
+# Remove epita tests
+alias rmtests='make clean && rm -rf tests/ Makefile'
+
+# Clang format
+alias cfv='clang-format --Werror --dry-run $(find -type f -name "*.c" -o -name "*.h")'
+alias cf='clang-format -style=file -i'
 ##############################

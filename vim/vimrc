@@ -25,6 +25,10 @@ Plug 'hashivim/vim-terraform'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'szw/vim-tags'
 
+" Snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -139,13 +143,13 @@ set incsearch
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " The length of a tab 
-set tabstop=4
+set tabstop=8
 
 " The number of spaces inserted/rm when using < or >
 set shiftwidth=4
 
 " The number of spaces inserted when you press tab
-set softtabstop=-1
+set softtabstop=4
 
 " Insert spaces intead of tabs
 set expandtab
